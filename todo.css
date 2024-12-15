@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+}
+#first{
+    background-color: brown;
+    height: 150px;
+    width: 800px;
+    margin-left: 100px;
+}
+h1{
+    color: beige;
+    margin-left: 300px;
+
+}
+#inputbox{
+    margin-left: 300px;
+    width: 250px;
+}
+#btn{
+    background-color:blue;
+    
+}
+#btn:hover{
+    background-color: aqua;
+}
+#two{
+    
+    background-color: antiquewhite;
+    height: 280px;
+    width:800px;
+    margin-left: 100px;
+   
+}
+ul{ width: 100%;
+    max-width: 300px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+
+li
+{
+cursor: pointer;
+border: 1px solid cornflowerblue ;
+border-radius:  4px;
+margin-block-end: 12px;
+background-color: rgb(215, 245, 250);
+}
